@@ -13,13 +13,13 @@
 int botRequestDelay = 1000;
 unsigned long lastTimeBotRan;
 // Replace with your network credentials
-const char* ssid = "RD";
-const char* password = "adam5557";
+const char* ssid = "ssid";
+const char* password = "pw";
 
 // Initialize Telegram BOT
-#define BOTtoken "6804671478:AAEpnLKG0rycSRlnXduK6RDx7u_8PUNmE28"  
+#define BOTtoken "your_bot_token"  
 
-#define CHAT_ID "6951537336"
+#define CHAT_ID "your_chat_id"
 
 #ifdef ESP8266
   X509List cert(TELEGRAM_CERTIFICATE_ROOT);
